@@ -21,13 +21,13 @@ $ sudo npm install --global current-time-cli
 ## Usage
 
 ```
-$ curt
+$ currt
 
 › Please provide a query
 
-	For help       :   curt -h, --help
+	For help       :   currt -h, --help
 
-	For examples   :   curt -e, --examples
+	For examples   :   currt -e, --examples
 ```
 
 ## Related

@@ -18,7 +18,7 @@ const arg = process.argv[2];
 
 if (arg === '--help' || arg === '-h') {
 	console.log(`
- ${chalk.cyan('Usage   :')} curt ${chalk.yellow('[query]')}
+ ${chalk.cyan('Usage   :')} currt ${chalk.yellow('[query]')}
 
  ${chalk.yellow('query   :')} place, state, country, question
 
@@ -29,7 +29,7 @@ if (arg === '--help' || arg === '-h') {
 	`);
 } else if (arg === '--example' || arg === '-e') {
 	console.log(`
- ${chalk.yellow('Examples :')} ${chalk.cyan('curt <query>')}
+ ${chalk.yellow('Examples :')} ${chalk.cyan('currt <query>')}
 
  where the format of query could be...
 
@@ -54,8 +54,8 @@ if (arg === '--help' || arg === '-h') {
 	console.log(`
  ${chalk.yellow('› Please provide a query')}
 
- ${chalk.green('For help       :   curt -h, --help')}
- ${chalk.green('For examples   :   curt -e, --examples')}
+ ${chalk.green('For help       :   currt -h, --help')}
+ ${chalk.green('For examples   :   currt -e, --examples')}
 	`);
 } else {
 	dns.lookup('facebook.com', err => {
